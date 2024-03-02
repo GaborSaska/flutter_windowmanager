@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace "com.adaptant-labs.flutter_windowmanager"
+        namespace "io.adaptant.labs.flutter_windowmanager"
     }
     
     compileSdkVersion 28
